@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-gap: 1.25rem;
+}
+
+.grid-col-lg-3 {
+    grid-column: span 3/span 3;
+}
+
+.grid-col-lg-4 {
+    grid-column: span 4/span 4;
+}
+
+.grid-col-lg-5 {
+    grid-column: span 5/span 5;
+}
+
+.grid-col-lg-6 {
+    grid-column: span 6/span 6;
+}
+
+.grid-col-lg-8 {
+    grid-column: span 8/span 8;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-col-sm-12 {
+        grid-column: span 12/span 12;
+    }
+
+}
+

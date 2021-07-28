@@ -1,0 +1,37 @@
+.large-card{
+    background-color: transparent;
+    border: 2px solid transparent;
+    -webkit-box-shadow: 3px 0px 11px -1px $mainLightGray; 
+    box-shadow: 3px 0px 11px -1px $mainLightGray;
+    color: $mainBlack;
+
+    .cardContainer {
+        border: 4px solid $mainCyan;
+        height: 180px;
+        max-width: 100%;
+        overflow: hidden;
+        position: relative;
+        .featureTag {
+            font-size: $featuredText;
+            color: $mainWhite;
+            background-color: $mainCyan;
+            position: absolute;
+            top: 0;
+            margin-top: 0rem;
+            padding: 0.25rem 1rem 0.25rem 1rem;
+        }
+    }
+    
+    .cardBox {
+        p {
+            font-size: $copy;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            font-size: $cardTitleLarge;
+        }
+    }
+
+
+}

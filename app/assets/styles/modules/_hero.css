@@ -1,0 +1,13 @@
+.hero {
+    color: $mainBlack;
+    max-width: 80%;
+    h1 {
+        font-size: $headline;
+        margin-bottom: 1.25rem;
+    }
+    p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+  
+}

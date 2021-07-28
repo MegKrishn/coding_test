@@ -1,0 +1,19 @@
+.btn {
+    color: $mainWhite;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+
+    &--orange{
+        background-color: $mainOrange;
+    }
+
+    &--outline{
+        background-color: transparent;
+        border: 1px solid $mainWhite;
+    }
+
+}

@@ -1,0 +1,13 @@
+.sub-nav {
+    display: inline-flex;
+    font-size: 0.875rem;
+    padding: inherit;
+    padding-left: 0;
+    li{
+        color:$mainLightGray;
+        a {
+            color: $mainOrange;
+            padding: 0rem 1rem;
+        }
+    }
+}

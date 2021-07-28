@@ -1,0 +1,32 @@
+footer {
+    background-color: $mainDarkGray;
+    color: $mainWhite;
+    span {
+        font-size: 1.125rem;
+        border-bottom: 2px solid $mainWhite;
+        margin-left: 2.75rem;
+        text-transform: uppercase;
+    }
+    nav {
+        display: flex;
+        ul {
+            li {
+                line-height: 2;
+                font-size: 0.875rem;
+                a {
+                    color: $mainWhite;
+                }
+            }
+        }
+        .social{
+            display: flex;
+            li{
+                width: 50px;
+                height: 50px;
+                a{
+                    font-size: 	1.875rem;
+                }
+            }
+        }
+    }
+}
